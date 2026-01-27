@@ -2,41 +2,38 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.para,
-.small-para {
+.para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
-}
-
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
-}
-
-.para {
   font-size: 22px;
 }
 
-.confirm {
-  background: green;
-  color: white;
+.para.small-para {
+  font-size: 14px;
+}
+
+.button.confirm {
+  background-color: green;
   font-weight: bold;
+  color: white;
 } 
 
 .button {
   background-color: rgb(255, 255, 255);
+  border: 1px solid black;
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
-.child {
+.text {
   color: rgb(0, 0, 0);
+  font-weight: 50;
+  font-size: 20px;
+}
+
+.text .child {
   font-weight: 800;
   font-size: 14px;
 }
 
-div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
-  font-weight: 100;
-}
+
